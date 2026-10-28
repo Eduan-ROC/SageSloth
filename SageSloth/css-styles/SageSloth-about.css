@@ -1,0 +1,285 @@
+.about {
+    color: #88ff00;
+}
+
+.story-hero {
+    display: flex;
+    flex-direction: row;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 150px;
+    gap: 60px;
+}
+
+.story-copy {
+    width: 550px;
+}
+
+.eyebrow {
+    color: #70D6B2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin-bottom: 20px;
+   
+}
+
+.headline {
+    color: #F3F1E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.introduction {
+    color: #9EAA9E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.mission-label {
+    background-color: #A8D672;
+    border-radius: 20px;
+    color: #142018;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sloth-gamer {
+    background-repeat: no-repeat;
+    background-image: url(../pictures-and-icons/Sloth-gamer.png);
+    width: 455px;
+    height: 375px;
+    border-radius: 10%;
+}
+
+.principles {
+    background-color: #13201B;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.section-label {
+    color: #FFB893;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #F3F1E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.principle-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.principle-card {
+    border-radius: 10%;
+    border: 2px solid #2B4037;
+    width: 300px;
+    padding: 30px;
+}
+
+.tiny-resets-symbol {
+    background-color: #A8D672;
+    border-radius: 25px;
+    color: #142018;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.not-perfect-symbol {
+    background-color: #C6B5FF;
+    border-radius: 25px;
+    color: #142018;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.keep-joy-symbol {
+    background-color: #FFB893;
+    border-radius: 25px;
+    color: #142018;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.principle-title {
+    color: #F3F1E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #9EAA9E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.guides {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.guide-title {
+    color: #F3F1E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.guide-note {
+    color: #9EAA9E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.guide-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #142018;
+}
+
+.guide-card-MC {
+    background-color: #A8D672;
+    border-radius: 20px;
+    padding: 13px;
+    height: 450px;
+}
+
+.guide-card-DO {
+    background-color: #C6B5FF;
+    border-radius: 20px;
+    padding: 13px;
+    height: 450px;
+}
+
+.guide-card-SR {
+    background-color: #FFB893;
+    border-radius: 20px;
+    padding: 13px;
+    height: 450px;
+}
+
+.guide-details {
+    margin-left: 20px;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.role {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 14px;
+}
+
+.press-notes {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+.press-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.press-title {
+    color: #F3F1E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.press-note-cards {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.all-notes-action {
+    display: flex;
+    color: #9EAA9E;
+    background: transparent;
+    border: 0px;
+}
+
+.press-note-cards {
+    gap: 25px;
+}
+
+.press-note-respawn {
+    background-color: #70D6B2;
+    border-radius: 20px;
+    color: #142018;
+    padding: 30px;
+}
+
+.press-note-cozy {
+    background-color: #C6B5FF;
+    border-radius: 20px;
+    color: #142018;
+    padding: 30px;
+}
+
+.press-note-patch {
+    background-color: #E8DD63;
+    border-radius: 20px;
+    color: #142018;
+    padding: 30px;
+}
+
+.note-source {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+
+.note-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.note-summary {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}

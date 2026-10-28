@@ -1,0 +1,217 @@
+.contact {
+    color: #88ff00;
+}
+
+.contact-hero {
+    justify-items: center;
+    text-align: center;
+}
+
+.status {
+    background-color: #192B24;
+    color: #70D6B2;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #9EAA9E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 650px;
+    margin-bottom: 50px;
+}
+
+.contact-routes {
+    color: #142018;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contact-route-email {
+    align-items: center;
+    background-color: #A8D672;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.route-icon-email {
+    background-color: #97c266;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact-route-discord {
+    align-items: center;
+    background-color: #C6B5FF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.route-icon-discord {
+    background-color: #afa0e1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.message-form-region {
+    justify-self: center;
+    background-color: #192B24;
+    border: 2px solid #2B4037;
+    border-radius: 20px;
+    padding: 50px;
+    width: 750px;
+    margin-bottom: 125px;
+}
+
+.eyebrow {
+    color: #FFB893;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.heading {
+    color: #F3F1E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.form-note {
+    color: #9EAA9E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.identity-fields {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.form-field-id {
+    background-color: #142018;
+    border: 2px solid #2B4037;
+    border-radius: 15px;
+    color: #809d8f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 25px;
+    padding-top: 10px;
+    width: 400px;
+}
+
+.form-field {
+    background-color: #142018;
+    border: 2px solid #2B4037;
+    border-radius: 15px;
+    color: #809d8f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 25px;
+    padding-top: 10px;
+}
+
+.form-field-message {
+    background-color: #142018;
+    border: 2px solid #2B4037;
+    border-radius: 15px;
+    color: #809d8f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 25px;
+    padding-top: 10px;
+    height: 150px;
+}
+
+.preferred-reset {
+    background-color: #142018;
+    border: 2px solid #2B4037;
+    border-radius: 15px;
+    color: #809d8f;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder {
+    color: #53645C;
+}
+
+textarea {
+    max-width: 92.5%;
+    min-width: 92.5%;
+}
+
+textarea::placeholder {
+    color: #53645C;
+}
+
+.form-action {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.privacy-note {
+    color: #9EAA9E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 450px;
+}
+
+.submit:not(:hover) {
+    background-color: #A8D672;
+    border-radius: 13px;
+    font-size: 17px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+    transition: 1s;
+}
+
+.submit:hover {
+    background-color: #A8D672;
+    border-radius: 13px;
+    font-size: 21px;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+    transition: 1s;
+}
